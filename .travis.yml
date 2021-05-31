@@ -1,0 +1,20 @@
+language: node_js
+
+os: linux
+dist: xenial
+node_js: 14.8.0
+
+before_install:
+    - npm install
+    - npm install -g grunt-cli
+
+cache:
+    - npm
+
+jobs:
+    include:
+        - stage: Linters
+          script: grunt lint
+
+        - stage: Unit tests
+          script: grunt tests:unit

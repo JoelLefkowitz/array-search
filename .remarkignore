@@ -1,0 +1,11 @@
+__pycache__/
+.DS_Store
+.git/
+.mypy_cache/
+*.env
+build/
+coverage/
+dist/
+node_modules/
+terraform/
+venv/

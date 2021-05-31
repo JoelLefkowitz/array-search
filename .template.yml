@@ -1,0 +1,44 @@
+output_dir: .
+
+clear_top_level: true
+logical_grouping: true
+
+collections:
+    - common
+    - purescript
+
+loader_paths:
+    - docs
+
+render_context:
+    project:
+        project_name: purescript-array-search
+        version: 0.1.0
+
+        verbose_name: PureScript array search
+        description: Array search utilities.
+
+        repository: https://github.com/JoelLefkowitz/purescript-array-search
+        codacy_id: a234d28178cf4a1b8bca450fdc432f77
+
+        inserts:
+            - usage.md
+
+    author:
+        author: Joel Lefkowitz
+        author_email: joellefkowitz@hotmail.com
+        author_github_handle: joellefkowitz
+
+    package:
+        is_pursuit_package: true
+        package_name: array-search
+
+    portfolio:
+        is_portfolio: true
+        status_level: 2
+
+        languages:
+            - PureScript
+
+        paradigms:
+            - Functional programming
