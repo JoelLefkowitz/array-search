@@ -18,7 +18,10 @@ __pypackages__/
 .ipynb_checkpoints
 .mypy_cache/
 .nox/
+.nyc_output/
 .project
+.psci_modules/
+.psc-ide-port
 .pyre/
 .pytest_cache/
 .Python
