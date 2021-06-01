@@ -1,5 +1,5 @@
 project: purescript-array-search
-version: 0.1.0
+version: 0.2.0
 author: Joel Lefkowitz
 verbose_name: PureScript array search
 html_title: PureScript array search 

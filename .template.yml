@@ -19,7 +19,7 @@ protected:
 render_context:
     project:
         project_name: purescript-array-search
-        version: 0.1.0
+        version: 0.2.0
 
         verbose_name: PureScript array search
         description: Array search utilities.
