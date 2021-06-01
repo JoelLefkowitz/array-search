@@ -10,6 +10,12 @@ collections:
 loader_paths:
     - docs
 
+protected:
+    - spago.dhall
+
+protected:
+    - spago.dhall
+
 render_context:
     project:
         project_name: purescript-array-search
@@ -35,7 +41,7 @@ render_context:
 
     portfolio:
         is_portfolio: true
-        status_level: 2
+        status_level: 3
 
         languages:
             - PureScript
