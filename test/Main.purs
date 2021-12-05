@@ -8,11 +8,11 @@ import Test.Assert (assertEqual)
 
 main :: Effect Unit
 main = do
-  testlargestLessThan
+  testLargestLessThan
   testFinalSatisfying
 
-testlargestLessThan :: Effect Unit
-testlargestLessThan = do
+testLargestLessThan :: Effect Unit
+testLargestLessThan = do
   assertEqual
     { actual: largestLessThan [ 1, 2, 3, 4 ] 3
     , expected: Just 2

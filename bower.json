@@ -1,0 +1,29 @@
+{
+  "name": "purescript-array-search",
+  "version": "0.2.0",
+  "description": "Array search utilities.",
+  "homepage": "https://github.com/JoelLefkowitz/purescript-array-search",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JoelLefkowitz/purescript-array-search"
+  },
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "output",
+    "test",
+    "bower.json",
+    "package.json"
+  ],
+  "dependencies": {
+    "purescript-maybe": "^5.0.0",
+    "purescript-foldable-traversable": "^5.0.1"
+  },
+  "devDependencies": {
+    "purescript-assert": "^5.0.0",
+    "purescript-debug": "^5.0.0",
+    "purescript-psci-support": "^5.0.0"
+  }
+}
