@@ -12,6 +12,7 @@
     "grunt": "^1.4.1",
     "lodash": "^4.17.0",
     "prettier": "^2.3.2",
+    "pulp": "^15.0.0",
     "quick-grunt": "^0.2.0",
     "remark-cli": "^9.0.0",
     "remark-lint": "^8.0.0",
