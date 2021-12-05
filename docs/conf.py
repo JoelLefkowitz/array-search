@@ -21,7 +21,7 @@ extensions = [
     "sphinxcontrib.apidoc",
 ]
 
-html_title = "PureScript array search"
+html_title = "PureScript Array Search"
 html_favicon = "static/favicon.ico"
 
 html_static_path = ["static"]
@@ -40,6 +40,9 @@ autodoc_typehints = "description"
 typehints_fully_qualified = True
 autodoc_default_flags = ["members", "undoc-members"]
 napoleon_google_docstring = True
+
+apidoc_module_dir = "../src"
+apidoc_extra_args = ["-e"]
 
 """
     Yummy sphinx theme settings
