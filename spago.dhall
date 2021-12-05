@@ -3,9 +3,9 @@
 , repository = "https://github.com/JoelLefkowitz/purescript-array-search"
 , license = "MIT"
 , dependencies = 
-    [ "prelude"
+    [ "foldable-traversable"
     , "maybe"
-    , "foldable-traversable"
+    , "prelude"
     ]
 , packages = ./packages.dhall
 , sources = [ "src/**/*.purs" ]
