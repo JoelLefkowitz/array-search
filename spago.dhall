@@ -1,5 +1,5 @@
 { name = "purescript-array-search"
-, version = "0.3.0"
+, version = "0.3.1"
 , repository = "https://github.com/JoelLefkowitz/purescript-array-search"
 , license = "MIT"
 , dependencies = 

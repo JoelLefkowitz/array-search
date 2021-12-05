@@ -9,7 +9,7 @@ sys.path.append("..")
     Sphinx core settings
 """
 project = "purescript-array-search"
-version = "0.3.0"
+version = "0.3.1"
 author = "Joel Lefkowitz"
 master_doc = "index"
 
