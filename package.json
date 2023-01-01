@@ -21,14 +21,15 @@
   },
   "metadata": {
     "documentation": "https://purescript-array-search.readthedocs.io/en/latest",
+    "packages": null,
     "languages": [
-        "PureScript"
-      ],
-      "frameworks": [],
-      "paradigms": [
-        "Functional"
-      ],
-      "lifecycle": "Alpha",
-      "publisher": "Pursuit"
-    }
+      "PureScript"
+    ],
+    "frameworks": [],
+    "paradigms": [
+      "Functional"
+    ],
+    "lifecycle": "Alpha",
+    "publisher": "Pursuit"
+  }
 }
