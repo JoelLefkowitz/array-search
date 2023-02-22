@@ -1,7 +1,6 @@
 project: purescript-array-search
 version: 0.3.1
 author: Joel Lefkowitz
-verbose_name: PureScript Array Search
-html_title: PureScript Array Search
+verbose_name: Array search
+html_title: Array search
 github_url: https://github.com/JoelLefkowitz/purescript-array-search
-apidoc_module_dir: src

@@ -1,20 +1,20 @@
-# PureScript Array Search
+# Array search
 
 Array search utilities.
 
 ## Status
 
-| Source     | Shields                                                                                                                                      |
-| ---------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| Project    | ![release][release_shield] ![license][license_shield] ![lines][lines_shield] ![languages][languages_shield]                                  |
-| Health     | ![readthedocs][readthedocs_shield] ![github_review][github_review_shield]![codacy][codacy_shield] ![codacy_coverage][codacy_coverage_shield] |
-| Repository | ![issues][issues_shield] ![issues_closed][issues_closed_shield] ![pulls][pulls_shield] ![pulls_closed][pulls_closed_shield]                  |
-| Activity   | ![contributors][contributors_shield] ![monthly_commits][monthly_commits_shield] ![last_commit][last_commit_shield]                           |
+| Source     | Shields                                                       |
+| ---------- | ------------------------------------------------------------- |
+| Project    | ![latest_release] ![license] ![line_count] ![language_count]  |
+| Health     | ![documentation] ![review_action] ![codacy_quality]           |
+| Repository | ![open_issues] ![closed_issues] ![open_pulls] ![closed_pulls] |
+| Activity   | ![contributors] ![monthly_commits] ![last_commit]             |
 
-## Installing
+## Installation
 
 ```bash
-spago install purescript-array-search
+spago install array-search
 ```
 
 ## Tests
@@ -22,38 +22,38 @@ spago install purescript-array-search
 To run tests:
 
 ```bash
-grunt test
+nps test
 ```
 
 ## Documentation
 
-This repository's documentation is hosted on [readthedocs][readthedocs].
+This repository's documentation is hosted on [Pursuit](https://purescript-array-search.readthedocs.io/en/latest).
 
-## Tooling
+## Linters
 
 To run linters:
 
 ```bash
-grunt lint
+nps lint
 ```
+
+## Formatters
 
 To run formatters:
 
 ```bash
-grunt format
+nps format
 ```
 
 ## Continuous integration
 
-This repository uses github actions to lint and test each commit. Formatting tasks and writing/generating documentation must be done before committing new code.
+This repository uses GitHub Actions to lint and test each commit. Each commit should be formatted and its corresponding documentation should be updated.
 
 ## Versioning
 
-This repository adheres to semantic versioning standards.
-For more information on semantic versioning visit [SemVer][semver].
+This repository adheres to semantic versioning standards. For more information on semantic versioning visit [semver](https://semver.org).
 
-Bump2version is used to version and tag changes.
-For example:
+Bump2version is used to version and tag changes. For example:
 
 ```bash
 bump2version patch
@@ -69,54 +69,32 @@ Please read this repository's guidelines on [contributing](CONTRIBUTING.md) for 
 
 ## Contributors
 
-- **Joel Lefkowitz** - _Initial work_ - [Joel Lefkowitz][author]
-
-[![Buy Me A Coffee][coffee_button]][author_coffee]
+- [Joel Lefkowitz](https://github.com/joellefkowitz) - Initial work
 
 ## Remarks
 
 Lots of love to the open source community!
 
-![Be kind][be_kind]
+<p align='center'>
+    <img width=200 height=200 src='https://media.giphy.com/media/osAcIGTSyeovPq6Xph/giphy.gif' alt='Be kind to your mind' />
+    <img width=200 height=200 src='https://media.giphy.com/media/KEAAbQ5clGWJwuJuZB/giphy.gif' alt='Love each other' />
+    <img width=200 height=200 src='https://media.giphy.com/media/WRWykrFkxJA6JJuTvc/giphy.gif' alt="It's ok to have a bad day" />
+</p>
 
-<!-- Project links -->
-
-[readthedocs]: https://purescript-array-search.readthedocs.io/en/latest/
-
-<!-- External links -->
-
-[semver]: http://semver.org/
-[be_kind]: https://media.giphy.com/media/osAcIGTSyeovPq6Xph/giphy.gif
-
-<!-- Contributor links -->
-
-[author]: https://github.com/joellefkowitz
-[author_coffee]: https://www.buymeacoffee.com/joellefkowitz
-[coffee_button]: https://cdn.buymeacoffee.com/buttons/default-blue.png
-
-<!-- Project shields -->
-
-[release_shield]: https://img.shields.io/github/v/tag/joellefkowitz/purescript-array-search
-[license_shield]: https://img.shields.io/github/license/joellefkowitz/purescript-array-search
-[lines_shield]: https://img.shields.io/tokei/lines/github/joellefkowitz/purescript-array-search
-[languages_shield]: https://img.shields.io/github/languages/count/joellefkowitz/purescript-array-search
-
-<!-- Health shields -->
-
-[readthedocs_shield]: https://img.shields.io/readthedocs/purescript-array-search
-[github_review_shield]: https://img.shields.io/github/workflow/status/JoelLefkowitz/purescript-array-search/Review
-[codacy_shield]: https://img.shields.io/codacy/grade/a234d28178cf4a1b8bca450fdc432f77
-[codacy_coverage_shield]: https://img.shields.io/codacy/coverage/a234d28178cf4a1b8bca450fdc432f77
-
-<!-- Repository shields -->
-
-[issues_shield]: https://img.shields.io/github/issues/joellefkowitz/purescript-array-search
-[issues_closed_shield]: https://img.shields.io/github/issues-closed/joellefkowitz/purescript-array-search
-[pulls_shield]: https://img.shields.io/github/issues-pr/joellefkowitz/purescript-array-search
-[pulls_closed_shield]: https://img.shields.io/github/issues-pr-closed/joellefkowitz/purescript-array-search
-
-<!-- Activity shields -->
-
-[contributors_shield]: https://img.shields.io/github/contributors/joellefkowitz/purescript-array-search
-[monthly_commits_shield]: https://img.shields.io/github/commit-activity/m/joellefkowitz/purescript-array-search
-[last_commit_shield]: https://img.shields.io/github/last-commit/joellefkowitz/purescript-array-search
+[latest_release]: https://img.shields.io/github/v/tag/joellefkowitz/purescript-array-search "Latest release"
+[license]: https://img.shields.io/github/license/joellefkowitz/purescript-array-search "License"
+[line_count]: https://img.shields.io/tokei/lines/github/joellefkowitz/purescript-array-search "Line count"
+[language_count]: https://img.shields.io/github/languages/count/joellefkowitz/purescript-array-search "Language count"
+[documentation]: https://img.shields.io/readthedocs/purescript-array-search "Documentation"
+[review_action]: https://img.shields.io/github/actions/workflow/status/JoelLefkowitz/purescript-array-search/review.yml "Review action"
+[codacy_quality]: https://img.shields.io/codacy/grade/a234d28178cf4a1b8bca450fdc432f77 "Codacy quality"
+[codacy_coverage]: https://img.shields.io/codacy/coverage/a234d28178cf4a1b8bca450fdc432f77 "Codacy coverage"
+[npm_version]: https://img.shields.io/npm/v/purescript-array-search "NPM Version"
+[npm_downloads]: https://img.shields.io/npm/dw/purescript-array-search "NPM Downloads"
+[open_issues]: https://img.shields.io/github/issues/joellefkowitz/purescript-array-search "Open issues"
+[closed_issues]: https://img.shields.io/github/issues-closed/joellefkowitz/purescript-array-search "Closed issues"
+[open_pulls]: https://img.shields.io/github/issues-pr/joellefkowitz/purescript-array-search "Open pull requests"
+[closed_pulls]: https://img.shields.io/github/issues-pr-closed/joellefkowitz/purescript-array-search "Closed pull requests"
+[contributors]: https://img.shields.io/github/contributors/joellefkowitz/purescript-array-search "Contributors"
+[monthly_commits]: https://img.shields.io/github/commit-activity/m/joellefkowitz/purescript-array-search "Monthly commits"
+[last_commit]: https://img.shields.io/github/last-commit/joellefkowitz/purescript-array-search "Last commit"

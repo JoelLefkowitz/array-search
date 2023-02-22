@@ -1,26 +1,30 @@
 {
+  "scripts": {
+    "prepare": "husky install"
+  },
   "devDependencies": {
-    "cspell": "^5.6.6",
-    "eslint": "^7.30.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.23.4",
-    "eslint-watch": "^7.0.0",
-    "grunt-cli": "^1.4.3",
-    "grunt-contrib-clean": "^2.0.0",
-    "grunt-contrib-copy": "^1.0.0",
-    "grunt-exec": "^3.0.0",
-    "grunt": "^1.4.1",
-    "lodash": "^4.17.0",
-    "prettier": "^2.3.2",
-    "pulp": "^15.0.0",
-    "quick-grunt": "^0.2.0",
-    "remark-cli": "^9.0.0",
-    "remark-lint": "^8.0.0",
-    "remark-preset-lint-recommended": "^5.0.0",
-    "spago": "^0.20.3"
+    "@types/jest": "28.1.1",
+    "@types/node": "^18.11.18",
+    "@typescript-eslint/eslint-plugin": "^5.52.0",
+    "@typescript-eslint/parser": "^5.36.1",
+    "cspell": "^6.26.3",
+    "eslint": "~8.34.0",
+    "eslint-config-prettier": "8.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "husky": "^8.0.3",
+    "jest": "28.1.1",
+    "nps": "^5.10.0",
+    "nps-utils": "^1.7.0",
+    "prettier": "^2.6.2",
+    "pulp": "^16.0.2",
+    "purty": "^7.0.0",
+    "ts-jest": "28.0.5",
+    "ts-node": "10.9.1",
+    "tslib": "^2.3.0",
+    "typescript": "^4.8.4"
   },
   "metadata": {
-    "documentation": "https://purescript-array-search.readthedocs.io/en/latest",
+    "documentation": "https://pursuit.purescript.org/packages/purescript-array-search",
     "packages": null,
     "languages": [
       "PureScript"

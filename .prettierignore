@@ -1,0 +1,7 @@
+.spago
+bower_components
+coverage
+generated-docs
+output
+samples/invalid
+venv

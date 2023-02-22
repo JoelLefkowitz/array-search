@@ -1,4 +1,7 @@
-module Test.Main where
+module Test.Main
+  ( main
+  , testFinalSatisfying
+  ) where
 
 import Prelude
 import Data.Array.Search (largestLessThan, finalSatisfying)
