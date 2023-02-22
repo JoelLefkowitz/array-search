@@ -1,6 +1,6 @@
 # Array search
 
-Array search utilities.
+Array search functions.
 
 ## Status
 
