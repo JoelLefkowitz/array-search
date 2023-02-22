@@ -1,7 +1,7 @@
 {
   "name": "purescript-array-search",
   "version": "0.3.1",
-  "description": "Array search utilities.",
+  "description": "Array search functions.",
   "homepage": "https://github.com/JoelLefkowitz/purescript-array-search",
   "license": "MIT",
   "repository": {
