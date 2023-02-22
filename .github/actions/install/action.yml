@@ -67,7 +67,7 @@ runs:
       shell: bash
       run: |
         yarn install --frozen-lockfile
-        yarn global add bower nps ts-node
+        yarn global add bower nps pulp ts-node
 
     - name: Install bower dependencies
       shell: bash
