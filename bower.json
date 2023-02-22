@@ -25,5 +25,10 @@
     "purescript-foldable-traversable": "^5.0.1",
     "purescript-maybe": "^5.0.0",
     "purescript-prelude": "^5.0.1"
+  },
+  "devDependencies": {
+    "purescript-assert": "^5.0.0",
+    "purescript-debug": "^5.0.0",
+    "purescript-psci-support": "^5.0.0"
   }
 }

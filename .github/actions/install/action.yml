@@ -4,7 +4,7 @@ description: Install dependencies
 inputs:
   purs-version:
     description: Purs version
-    default: "0.15.0"
+    default: "0.14.9"
 
   node-version:
     description: Node version
@@ -20,18 +20,17 @@ runs:
     - name: Checkout the source code
       uses: actions/checkout@v3
 
-    - name: Cache PureScript dependencies
-      uses: actions/cache@v2
-      with:
-        key: ${{ runner.os }}-spago-${{ hashFiles('**/*.dhall') }}
-        path: |
-          .spago
-          output
-
     - name: Fetch yarn's cache directory path
       id: yarn-cache-dir-path
       shell: bash
       run: echo "YARN_CACHE_DIR=$(yarn cache dir)" >> $GITHUB_ENV
+
+    - name: Set up bower package caching
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/bower
+        key: ${{ runner.os }}-bower-${{ hashFiles('**/bower.json') }}
+        restore-keys: ${{ runner.os }}-bower-
 
     - name: Set up yarn package caching
       uses: actions/cache@v3
@@ -64,9 +63,9 @@ runs:
       with:
         python-version: ${{ inputs.python-version }}
 
-    - name: Install purs dependencies
+    - name: Install bower dependencies
       shell: bash
-      run: spago install
+      run: bower install
 
     - name: Install node dependencies
       shell: bash

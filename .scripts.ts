@@ -10,7 +10,5 @@ export default {
       prettier: "prettier . --write",
       purty: "echo src test | xargs -n1 purty --write",
     }),
-    test: "spago --config test/test.dhall test",
-    build: "spago build",
   },
 };

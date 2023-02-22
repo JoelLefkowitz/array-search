@@ -16,13 +16,5 @@ jobs:
       - name: Run linters
         run: nps lint
 
-      - name: Check the build completes
-        run: nps build
-
       - name: Run tests
-        run: nps test
-
-      - name: Verify pulp and bower complete
-        run: |
-          npx bower install --production
-          npx pulp build
+        run: pulp test

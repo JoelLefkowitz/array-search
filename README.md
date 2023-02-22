@@ -14,7 +14,7 @@ Array search utilities.
 ## Installation
 
 ```bash
-spago install array-search
+bower install purescript-array-search
 ```
 
 ## Tests
@@ -22,7 +22,7 @@ spago install array-search
 To run tests:
 
 ```bash
-nps test
+pulp test
 ```
 
 ## Documentation
