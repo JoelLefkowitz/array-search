@@ -7,7 +7,7 @@ Array search functions.
 | Source     | Shields                                                       |
 | ---------- | ------------------------------------------------------------- |
 | Project    | ![latest_release] ![license] ![line_count] ![language_count]  |
-| Health     | ![review_action] ![codacy_quality]                            |
+| Health     | ![documentation] ![review_action] ![codacy_quality]           |
 | Repository | ![open_issues] ![closed_issues] ![open_pulls] ![closed_pulls] |
 | Activity   | ![contributors] ![monthly_commits] ![last_commit]             |
 
@@ -85,6 +85,7 @@ Lots of love to the open source community!
 [license]: https://img.shields.io/github/license/joellefkowitz/purescript-array-search "License"
 [line_count]: https://img.shields.io/tokei/lines/github/joellefkowitz/purescript-array-search "Line count"
 [language_count]: https://img.shields.io/github/languages/count/joellefkowitz/purescript-array-search "Language count"
+[documentation]: https://pursuit.purescript.org/packages/purescript-array-search/badge "Documentation"
 [review_action]: https://img.shields.io/github/actions/workflow/status/JoelLefkowitz/purescript-array-search/review.yml "Review action"
 [codacy_quality]: https://img.shields.io/codacy/grade/a234d28178cf4a1b8bca450fdc432f77 "Codacy quality"
 [codacy_coverage]: https://img.shields.io/codacy/coverage/a234d28178cf4a1b8bca450fdc432f77 "Codacy coverage"
