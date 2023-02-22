@@ -1,6 +1,0 @@
-{
-  "root": true,
-  "ts-node": {
-    "files": true
-  }
-}

@@ -9,7 +9,10 @@
     "nps-utils": "^1.7.0",
     "prettier": "^2.6.2",
     "pulp": "^16.0.2",
-    "purty": "^7.0.0"
+    "purty": "^7.0.0",
+    "ts-node": "10.9.1",
+    "tslib": "^2.3.0",
+    "typescript": "^4.8.4"
   },
   "metadata": {
     "documentation": "https://pursuit.purescript.org/packages/purescript-array-search",
