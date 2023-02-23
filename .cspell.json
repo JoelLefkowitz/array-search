@@ -66,6 +66,7 @@
     "quickdocs",
     "remarkrc",
     "replaceall",
+    "snoc",
     "spago",
     "sphinxcontrib",
     "toctree",

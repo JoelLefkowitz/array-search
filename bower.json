@@ -22,6 +22,7 @@
     "yarn.lock"
   ],
   "dependencies": {
+    "purescript-arrays": "^6.0.1",
     "purescript-foldable-traversable": "^5.0.1",
     "purescript-maybe": "^5.0.0",
     "purescript-prelude": "^5.0.1"

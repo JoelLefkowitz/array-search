@@ -17,6 +17,56 @@ Array search functions.
 bower install purescript-array-search
 ```
 
+## Usage
+
+```purs
+> some (\x -> x > 1) [ 1, 2, 3, 4 ]
+true
+
+> some (\x -> x > 5) [ 1, 2, 3, 4 ]
+false
+```
+
+```purs
+> every (\x -> x > 0) [ 1, 2, 3, 4 ]
+true
+
+> every (\x -> x > 1) [ 1, 2, 3, 4 ]
+false
+```
+
+```purs
+> findEachIndex (\x -> x > 1) [ 1, 2, 3, 4 ]
+[1, 2, 3]
+```
+
+```purs
+> smallest [ 1, 2, 3, 4 ]
+1
+
+> largest [ 1, 2, 3, 4 ]
+4
+```
+
+```purs
+> smallestWhere (\x -> x > 1) [ 1, 2, 3, 4 ]
+2
+
+> largestWhere (\x -> x > 1) [ 1, 2, 3, 4 ]
+4
+```
+
+```purs
+> smallestAbove 1 [ 1, 2, 3, 4 ]
+2
+
+> largestBelow 2 [ 1, 2, 3, 4 ]
+1
+```
+
+- `purescript-arrays` provides `find`, `findLast`, `findIndex` and `findLastIndex`
+- `findEach` is synonymous with `filter`
+
 ## Tests
 
 To run tests:
