@@ -1,12 +1,12 @@
 {
-  "name": "purescript-array-search",
-  "version": "0.4.0",
+  "name": "array-search",
   "description": "Array search functions.",
-  "homepage": "https://github.com/JoelLefkowitz/purescript-array-search",
+  "version": "0.4.0",
+  "homepage": "https://github.com/JoelLefkowitz/array-search",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JoelLefkowitz/purescript-array-search"
+    "url": "https://github.com/JoelLefkowitz/array-search"
   },
   "ignore": [
     "**/.*",
