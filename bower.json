@@ -1,7 +1,7 @@
 {
   "name": "array-search",
   "description": "Array search functions.",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "homepage": "https://github.com/JoelLefkowitz/array-search",
   "license": "MIT",
   "repository": {
