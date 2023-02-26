@@ -8,11 +8,6 @@ exclude:
     paths:
       - purs.json
 
-  - message: Package owner public ssh key
-    pattern: public
-    paths:
-      - purs.json
-
   - message: Giphy links
     pattern: https://media.giphy.com/media/
 
