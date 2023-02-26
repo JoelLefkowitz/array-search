@@ -11,8 +11,8 @@
     }
   ],
   "location": {
-    "githubOwner": "JoelLefkowitz",
-    "githubRepo": "purescript-array-search"
+    "githubOwner": "joellefkowitz",
+    "githubRepo": "array-search"
   },
   "dependencies": {
     "arrays": ">=6.0.0 <7.0.0",
