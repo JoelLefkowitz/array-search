@@ -1,7 +1,7 @@
 {
   "name": "array-search",
   "description": "Array search functions.",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "license": "MIT",
   "owners": [{
     "email": "joel@Joels-MacBook.local",
