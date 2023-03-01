@@ -64,6 +64,9 @@ false
 1
 ```
 
+Why provide `findEachIndex` only?
+What about `find`, `findLast`, `findIndex`, `findLastIndex` and `findEach`?
+
 - `purescript-arrays` provides `find`, `findLast`, `findIndex` and `findLastIndex`
 - `findEach` is synonymous with `filter`
 
