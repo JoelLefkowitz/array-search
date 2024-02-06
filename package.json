@@ -15,6 +15,9 @@
     "format": "prettier . --write && echo src test | xargs -n1 npx purty --write",
     "lint": "cspell . --dot && eslint . --fix --no-error-on-unmatched-pattern"
   },
+  "resolutions": {
+    "strip-ansi": "^6.0.1"
+  },
   "devDependencies": {
     "cspell": "^8.0.0",
     "esbuild": "^0.20.0",
