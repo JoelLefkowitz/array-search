@@ -20,7 +20,6 @@
     "strip-ansi": "^6.0.1"
   },
   "devDependencies": {
-    "bower": "^1.8.14",
     "cspell": "^8.0.0",
     "esbuild": "^0.20.0",
     "eslint": "^8.34.0",

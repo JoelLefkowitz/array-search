@@ -2,5 +2,5 @@
   "root": true,
   "extends": ["eslint:recommended", "prettier"],
   "env": { "es6": true, "node": true },
-  "ignorePatterns": ["bower_components", "dist", "generated-docs", "output"]
+  "ignorePatterns": ["dist", "generated-docs", "output"]
 }
