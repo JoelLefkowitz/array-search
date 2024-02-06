@@ -28,7 +28,7 @@ jobs:
         uses: actions/configure-pages@v4
 
       - name: Build the docs
-        
+
         # Use npx to invoke the local spago cli
         run: npx spago docs
 

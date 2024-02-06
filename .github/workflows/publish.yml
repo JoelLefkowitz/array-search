@@ -1,0 +1,25 @@
+name: Publish
+
+on:
+  push:
+    tags:
+      - "*.*.*"
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the source code
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        uses: ./.github/actions/install
+
+      - name: Install the build dependencies from bower
+        run: npx bower install
+
+      - name: Check the build is compatible with pulp
+        run: npx pulp build
+
+      - name: Publish the package
+        run: npx spago publish
