@@ -1,7 +1,7 @@
 {
   "name": "array-search",
   "description": "Array search functions.",
-  "version": "0.5.8",
+  "version": "0.5.9",
   "dependencies": {
     "purescript-arrays": "^7.2.1",
     "purescript-foldable-traversable": "^6.0.0",
