@@ -1,0 +1,6 @@
+{
+  "root": true,
+  "extends": ["eslint:recommended", "prettier"],
+  "env": { "es6": true, "node": true },
+  "ignorePatterns": ["dist", "generated-docs", "output"]
+}

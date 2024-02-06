@@ -1,0 +1,31 @@
+package:
+  name: array-search
+  description: Array search functions.
+  publish:
+    version: 0.5.7
+    license: MIT
+    location:
+      githubOwner: joellefkowitz
+      githubRepo: array-search
+
+  dependencies:
+    - arrays
+    - effect
+    - foldable-traversable
+    - maybe
+    - prelude
+
+  test:
+    main: Test.Main
+    dependencies:
+      - assert
+      - debug
+
+  bundle:
+    extra_args:
+      - --minify
+      - --outfile=dist/bundle.js
+
+workspace:
+  package_set:
+    registry: 41.2.0

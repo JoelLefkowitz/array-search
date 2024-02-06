@@ -1,4 +1,2 @@
-#!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
-nps lint -s
-pulp test
+npm run lint
+spago test

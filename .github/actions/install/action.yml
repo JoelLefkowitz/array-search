@@ -6,14 +6,6 @@ inputs:
     description: Node version
     default: "18"
 
-  purs-version:
-    description: Purs version
-    default: "0.14.9"
-
-  python-version:
-    description: Python version
-    default: "3.8"
-
 runs:
   using: composite
   steps:
@@ -34,45 +26,17 @@ runs:
         restore-keys: |
           ${{ runner.os }}-yarn-
 
-    - name: Set up bower package caching
-      uses: actions/cache@v3
-      with:
-        path: ~/.cache/bower
-        key: ${{ runner.os }}-bower-${{ hashFiles('**/bower.json') }}
-        restore-keys: ${{ runner.os }}-bower-
-
-    - name: Set up pip package caching
-      uses: actions/cache@v3
-      with:
-        path: ~/.cache/pip
-        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-        restore-keys: ${{ runner.os }}-pip-
-
     - name: Set the node version
       uses: actions/setup-node@v3
       with:
         node-version: ${{ inputs.node-version }}
 
-    - name: Set the purs version
-      uses: purescript-contrib/setup-purescript@main
-      with:
-        purescript: ${{ inputs.purs-version }}
-
-    - name: Set the python version
-      uses: actions/setup-python@v4
-      with:
-        python-version: ${{ inputs.python-version }}
-
     - name: Install node dependencies
       shell: bash
       run: |
         yarn install --frozen-lockfile
-        yarn global add bower nps pulp ts-node
+        yarn global add spago@0.93.0 purescript
 
-    - name: Install bower dependencies
+    - name: Install PureScript dependencies
       shell: bash
-      run: bower install
-
-    - name: Install python dependencies
-      shell: bash
-      run: pip install trufflehog3
+      run: spago install

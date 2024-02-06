@@ -1,22 +1,6 @@
 {
-  "scripts": {
-    "prepare": "husky install"
-  },
-  "devDependencies": {
-    "cspell": "^6.26.3",
-    "husky": "^8.0.3",
-    "nps": "^5.10.0",
-    "nps-utils": "^1.7.0",
-    "prettier": "^2.6.2",
-    "pulp": "^16.0.2",
-    "purty": "^7.0.0",
-    "ts-node": "10.9.1",
-    "tslib": "^2.3.0",
-    "typescript": "^4.8.4"
-  },
   "metadata": {
-    "documentation": "https://pursuit.purescript.org/packages/purescript-array-search",
-    "packages": null,
+    "publisher": "Pursuit",
     "languages": [
       "PureScript"
     ],
@@ -24,7 +8,22 @@
     "paradigms": [
       "Functional"
     ],
-    "lifecycle": "Alpha",
-    "publisher": "Pursuit"
+    "lifecycle": "Alpha"
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "format": "prettier . --write && echo src test | xargs -n1 npx purty --write",
+    "lint": "cspell . --dot && eslint . --fix --no-error-on-unmatched-pattern"
+  },
+  "devDependencies": {
+    "cspell": "^8.0.0",
+    "esbuild": "^0.20.0",
+    "eslint": "^8.34.0",
+    "eslint-config-prettier": "^8.0.0",
+    "husky": "^9.0.0",
+    "prettier": "^3.0.0",
+    "purescript": "^0.15.14",
+    "purty": "^7.0.0",
+    "spago": "^0.93.0"
   }
 }
