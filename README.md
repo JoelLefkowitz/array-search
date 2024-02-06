@@ -5,7 +5,6 @@ Array search functions.
 ![Review](https://img.shields.io/github/actions/workflow/status/JoelLefkowitz/array-search/review.yml)
 ![Version](https://pursuit.purescript.org/packages/purescript-array-search/badge)
 ![Quality](https://img.shields.io/codacy/grade/a234d28178cf4a1b8bca450fdc432f77)
-![Coverage](https://img.shields.io/codacy/coverage/a234d28178cf4a1b8bca450fdc432f77)
 
 ## Installation
 
