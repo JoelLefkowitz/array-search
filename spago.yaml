@@ -2,7 +2,7 @@ package:
   name: array-search
   description: Array search functions.
   publish:
-    version: 0.5.7
+    version: 0.5.8
     license: MIT
     location:
       githubOwner: joellefkowitz
