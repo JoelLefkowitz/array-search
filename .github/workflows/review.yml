@@ -17,9 +17,3 @@ jobs:
 
       - name: Run tests
         run: spago test
-
-      - name: Publish test coverage
-        uses: codacy/codacy-coverage-reporter-action@v1
-        with:
-          project-token: ${{ secrets.CODACY_PROJECT_TOKEN }}
-          coverage-reports: ./coverage/lcov.info
