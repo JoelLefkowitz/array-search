@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the source code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Install dependencies
         uses: ./.github/actions/install
@@ -16,4 +16,4 @@ jobs:
         run: npm run lint
 
       - name: Run tests
-        run: spago test
+        run: yarn spago test

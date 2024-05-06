@@ -1,19 +1,9 @@
 {
-  "metadata": {
-    "publisher": "Pursuit",
-    "languages": [
-      "PureScript"
-    ],
-    "frameworks": [],
-    "paradigms": [
-      "Functional"
-    ],
-    "lifecycle": "Alpha"
-  },
+  "packageManager": "yarn@4.1.1",
   "scripts": {
-    "prepare": "husky install",
+    "postinstall": "husky",
     "format": "prettier . --write && echo src test | xargs -n1 npx purty --write",
-    "lint": "cspell . --dot && eslint . --fix --no-error-on-unmatched-pattern"
+    "lint": "cspell . --dot --gitignore && eslint . --fix --no-error-on-unmatched-pattern && trufflehog3"
   },
   "resolutions": {
     "string-width": "4.2.3",

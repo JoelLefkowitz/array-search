@@ -1,2 +1,2 @@
 npm run lint
-spago test
+yarn spago test
