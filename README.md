@@ -6,7 +6,7 @@ Array search functions.
 ![Version](https://pursuit.purescript.org/packages/purescript-array-search/badge)
 ![Quality](https://img.shields.io/codacy/grade/a234d28178cf4a1b8bca450fdc432f77)
 
-## Installation
+## Installing
 
 ```bash
 spago install array-search

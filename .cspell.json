@@ -19,16 +19,12 @@
     "giphy",
     "joellefkowitz",
     "lefkowitz",
-    "newtype",
     "outfile",
     "purescript",
     "purs",
     "purty",
-    "repr",
     "snoc",
     "spago",
-    "stringutils",
-    "trufflehog",
-    "unfoldable"
+    "trufflehog"
   ]
 }

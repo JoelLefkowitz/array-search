@@ -33,7 +33,6 @@ package:
       - --minify
       - --outfile=dist/bundle.js
 
-
 metadata:
   publisher: Pursuit
   languages:
