@@ -22,8 +22,10 @@ exclude:
 
   - message: Tooling outputs
     paths:
+      - .nyc_output
       - generated-docs
       - output
+      - package-lock.json
       - spago.lock
       - yarn-error.log
       - yarn.lock

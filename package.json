@@ -2,7 +2,7 @@
   "packageManager": "yarn@4.1.1",
   "scripts": {
     "postinstall": "husky",
-    "format": "prettier . --write && echo src test | xargs -n1 npx purty --write",
+    "format": "prettier . --write && echo src test | xargs -n1 purty --write",
     "lint": "cspell . --dot --gitignore && eslint . --fix --no-error-on-unmatched-pattern && trufflehog3"
   },
   "resolutions": {

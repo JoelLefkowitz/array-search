@@ -21,17 +21,16 @@ package:
     - maybe: ">=6.0.0 <7.0.0"
     - prelude: ">=6.0.1 <7.0.0"
 
+  build:
+    pedanticPackages: true
+    strict: true
+
   test:
-    main: Test.Main
+    main: Test.Data.Array.Search
     dependencies:
       - assert
       - debug
       - effect
-
-  bundle:
-    extra_args:
-      - --minify
-      - --outfile=dist/bundle.js
 
 metadata:
   publisher: Pursuit
@@ -45,5 +44,5 @@ metadata:
   lifecycle: Alpha
 
 workspace:
-  package_set:
+  packageSet:
     registry: 41.2.0
