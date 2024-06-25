@@ -9,7 +9,7 @@ package:
     - find
 
   publish:
-    version: 0.5.10
+    version: 0.6.0
     license: MIT
     location:
       githubOwner: joellefkowitz
