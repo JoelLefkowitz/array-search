@@ -2,6 +2,8 @@
   "packageManager": "yarn@4.1.1",
   "scripts": {
     "postinstall": "husky",
+    "prepack": "pinst --disable",
+    "postpack": "pinst --enable",
     "format": "prettier . --write && echo src test | xargs -n1 purty --write",
     "lint": "cspell . --dot --gitignore && eslint . --fix --no-error-on-unmatched-pattern && trufflehog3"
   },
@@ -15,6 +17,7 @@
     "eslint": "^8.34.0",
     "eslint-config-prettier": "^8.0.0",
     "husky": "^9.0.0",
+    "pinst": "^3.0.0",
     "prettier": "^3.0.0",
     "purescript": "^0.15.14",
     "purty": "^7.0.0",
