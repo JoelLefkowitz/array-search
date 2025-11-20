@@ -2,7 +2,7 @@
 
 Array search functions.
 
-![Review](https://img.shields.io/github/actions/workflow/status/JoelLefkowitz/array-search/review.yml)
+![Review](https://img.shields.io/github/actions/workflow/status/JoelLefkowitz/array-search/review.yaml)
 ![Version](https://pursuit.purescript.org/packages/purescript-array-search/badge)
 ![Quality](https://img.shields.io/codacy/grade/a234d28178cf4a1b8bca450fdc432f77)
 
