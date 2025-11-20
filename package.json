@@ -1,11 +1,16 @@
 {
   "packageManager": "yarn@4.1.1",
+  "repository": "https://github.com/JoelLefkowitz/array-search",
+  "homepage": "https://joellefkowitz.github.io/array-search",
+  "keywords": [
+    "search",
+    "arrays",
+    "find"
+  ],
   "scripts": {
     "postinstall": "husky",
-    "prepack": "pinst --disable",
-    "postpack": "pinst --enable",
-    "format": "prettier . --write && echo src test | xargs -n1 purty --write",
-    "lint": "cspell . --dot --gitignore && eslint . --fix --no-error-on-unmatched-pattern && trufflehog3"
+    "lint": "cspell . --dot --gitignore && eslint . --fix --no-error-on-unmatched-pattern && trufflehog3",
+    "format": "prettier . --write && purs-tidy format-in-place src test"
   },
   "resolutions": {
     "string-width": "4.2.3",
@@ -17,10 +22,20 @@
     "eslint": "^8.34.0",
     "eslint-config-prettier": "^8.0.0",
     "husky": "^9.0.0",
-    "pinst": "^3.0.0",
     "prettier": "^3.0.0",
     "purescript": "^0.15.14",
-    "purty": "^7.0.0",
+    "purs-tidy": "^0.11.0",
     "spago": "^0.93.0"
+  },
+  "metadata": {
+    "publisher": "Pursuit",
+    "languages": [
+      "PureScript"
+    ],
+    "frameworks": [],
+    "paradigms": [
+      "Functional"
+    ],
+    "lifecycle": "Alpha"
   }
 }
